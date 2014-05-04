@@ -3,11 +3,11 @@ bibfile=bibliography.bib
 templ=latex.template
 cslfile=harvard7de.csl
 
-if [ "$2" == "latex" ]
+if [ "$1" == "latex" ]
 then
-	pandoc -V lang=ngerman -f markdown -t latex --template $templ --biblatex \
-		--toc --csl=$cslfile --number-sections --biblio=$bibfile $1.md > $1.tex && \
-	pdflatex $1.tex
+	pandoc -V lang=ngerman -f markdown -t latex --template $templ \
+	--biblatex --toc --csl=$cslfile --number-sections --biblio=$bibfile \
+	$2.md > $2.tex && pdflatex $2.tex
 
 elif [ "$1" == "clean" ]
 then
