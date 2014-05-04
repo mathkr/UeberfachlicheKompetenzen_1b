@@ -76,9 +76,76 @@ Die erste formelle Definition von Freier Software enstand 1986 durch die von
 Richard Stallman gegründete *Free Software Foundation* als Free Software
 Definition.
 
-### Open Source
+Als Alternative Bewegung im Bereich Freier Software gründete sich 1998 die
+*Open Source Initiative*, welche mit ihrer Definition Freier Software als
+Open Source Software größtenteils mit der Definition der Free Software
+Foundation übereinstimmt. Für die Open Source Initiative stehen bei der
+Verbreitung und Entwicklung von Open Source Software in erster Linie
+ganz pragmatische Aspekte wie bessere Qualität, größere Verlässlichkeit und
+geringere Kosten im Vordergrund. [@osiabout] Dies steht in einem Gegensatz zu
+den politischen und ideologischen Zielen der Free Software Foundation was Anlass
+zu einer bis heute andauernden Begriffsdebatte gab. [@gnuvsoss]
+
+Die Begriffe Open Source und Freie Software finden heute beide Verwendung ebenso
+wie die Vereinigung beider Begriffe als *Free and Open Source Software* (FOSS).
 
 ### Lizenzen
+
+Die Lizenz einer Software legt fest unter welchen Bedingungen sie verwendet
+werden darf und welche Rechte und Pflichten die Nutzer der Software wahrnehmen
+können, bzw. einhalten müssen. Software Lizenzen stützen sich dabei rechtlich
+auf das Urheberrecht, wobei Freie-Software-Lizenzen auch den Nutzern Freiheiten
+einräumen und nicht nur den Urhebern.
+
+Freie-Software-Lizenzen lassen sich laut @enquete grob in zwei Kategorien
+einteilen:
+
+- virale Lizenzen (oder auch vererbende Lizenzen)
+
+- und nicht-virale Lizenzen (oder auch nicht-vererbende Lizenzen).
+
+Virale Lizenzen stellen sicher, dass Software die unter einer solchen Lizenz
+veröffentlicht wurde nicht in einem proprietären Softwareprodukt verwendet
+werden kann, ohne dieses auch unter einer Freien-Software-Lizenz zu
+veröffentlichen wenn es weitergegeben wird. So soll unter Anderem sichergestellt
+werden, dass alle späteren Nutzer von Veränderungen an Freier Software
+profitieren können. Virale Freie-Software-Lizenzen werden auch als *Copyleft*
+Lizenzen bezeichnet.
+
+Nicht-virale Lizenzen stellen diese Anforderung eben nicht, so kann man zum
+Beispiel eine Softwarebibliothek die untere einer nicht-viralen
+Freien-Software-Lizenz veröffentlicht wurde auch in einem proprietären
+Softwareprodukt verwenden, ohne, dass man das resultierende Produkt wiederum
+unter eine Freie-Software-Lizenz stellen muss.
+
+Virale Lizenzen sind zum Beispiel:
+
+  - die **GNU General Public License (GPL)**.
+
+    Die am weitesten verbreitetste Freie-Software-Lizenz. Die GPL ist eine
+    strenge Copyleft Lizenz. Unter ihr wird zum Beispiel der Betriebssystemkern
+    Linux veröffentlicht.
+
+  - Die **European Public License (EUPL)**.
+
+    Eine von der Europäischen Kommission entwickelte Copyleft Lizenz für die
+    Verwendung bei Eigenentwicklungen im Bereich der öffentlichen Verwaltung.
+
+    [@enquete]
+
+Beispiele für nicht-virale Lizenzen sind:
+
+  - die **Apache License**.
+
+    Eine weit verbreitete Non-Copyleft-Lizenz die unter Anderem für den Apache
+    Webserver verwendet wird.
+
+  - Die **BSD-Lizenz**.
+
+    Die Lizenz der freien BSD-Betriebssysteme, welche als Vorbild für viele
+    andere Non-Copyleft-Lizenzen dient.
+
+    [@enquete]
 
 ## Vergleich zu proprietärer Software
 
