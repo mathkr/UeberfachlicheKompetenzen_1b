@@ -13,7 +13,4 @@ elif [ "$1" == "clean" ]
 then
 	rm *.bbl *.blg *.out *.run.xml *.toc *.log *.bcf *.aux -v
 
-else
-	pandoc -V lang=ngerman -o $1.pdf --biblio=$bibfile $1.md
-
 fi
