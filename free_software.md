@@ -285,3 +285,77 @@ Distributionen sowie die Administration und das Hosting von IT-Infrastruktur.
 
 ## Anwendungsgebiete
 
+Freie Software kann prinzipiell überall Verwendung finden wo auch proprietäre
+Software eingesetzt werden kann. Es gibt jedoch Bereiche in den es größere
+Hürden für die Einführung Freier Software zu meistern gilt als in anderen.
+
+@enquete führen eine ganze Reihe von Anwendungsgebieten für proprietäre Software
+auf, darunter die folgenden:
+
+  - **Freie Software in Bildung und Forschung**
+
+    Es gibt eine ganze Reihe vorkonfigurierte Freie-Software-Lösungen für den
+    Schul- und Bildungsbereich. Dazu gehören beispielsweise die extra für
+    Schulen vorgesehenen Linux Distributionen Edubuntu oder openSUSE Education.
+    Solche Linux Distributionen enthalten bereits Freie Software welche in einer
+    Lernumgebung verwendet werden kann.
+
+    Freie Software ist selbstverständlich auch im universitären Bereich
+    vertreten, was nicht verwundert, wenn man bedenkt das die
+    Freie-Software-Bewegung ihren Ursprung an Universitäten und Hochschulen
+    hatte.
+
+    Ein Beispiel für ein freies Softwareprodukt speziell aus dem universitären
+    Bereich ist die Lern- und Lehrplattform ILIAS.
+
+  - **Freie Software in der öffentlichen Verwaltung**
+
+      + *Project LiMux*
+
+        Der Münchner Stadtrat beschloss 2003 einen großen Teil der Münchner
+        Stadtverwaltung auf Freie Software umzustellen. Dabei wurden mehr als
+        10.000 PC-Arbeitsplätze teilweise auf Freie Software umgestellt.
+
+        Project LiMux stellt in Deutschland das größte derartige Projekt dar.
+
+      + *Auswärtiges Amt*
+
+        Weniger erfolgreich verlief der Versuch des öffentlichen Amtes insgesamt
+        11.000 Arbeitsplätze auf GNU/Linux Betriebssysteme umzustellen.
+
+        2010 wurde eine Rückmigration zu proprietären Systemen beschlossen,
+        als Gründe wurden Probleme bei der Interoperabilität vor allem von
+	Office Dokumenten mit proprietärer Software sowie mangelnde Akzeptanz
+	der Mitarbeiter und fehlendes Know-how des internen Supports genannt.
+
+  - **Freie Software im Bereich Mobilfunk/Smartphones**
+
+    @enquete sehen eine ganze Reihe von Problemen bei von Problemen für Freie
+    Software im Bereich des Mobilmarktes. Problematisch sind vor Allem die
+    Plattformeigenen Vertriebskanäle (sogenannte App-Stores), welche häufig
+    keine Lizenzinformationen bieten, teilweise sogar Freie Software
+    ausschließen und generell durch ihren geschlossenen Charakter eine sehr
+    feindliche Umgebung für den Vertrieb von Freier Software darstellen.
+
+    Außerdem problematisch sind die starke Kopplung zwischen Software und einem
+    vom Mobilfunkanbieter geleisteten Service, wie beispielsweise einem
+    automatischen Backup-Dienst sowie die Kopplung zwischen Software und
+    Hardware, die dazu führt das auf sehr vielen Smartphones, welche eigentlich
+    mittlerweile leistungsstarke Universalcomputer sind, keine beliebige
+    Software installiert werden kann. So kann zum Beispiel auf einem iPhone kein
+    alternatives Betriebssystem installiert werden ohne die von Apple
+    installierten Maßnahmen zu umgehen, die das verhindern sollen.
+
+  - **Freie Software im Bereich der Branchensoftware**
+
+    Branchensoftware ist Software, welche speziell auf die Anforderungen
+    bestimmter professioneller Branchen abgestimmt ist, beispielsweise ein
+    Programm, bzw. System zur Patientenverwaltung auf dem Gesundheitssektor.
+
+    @enquete kommen hier zu folgendem Schluss:
+
+    "Auch wenn allgemein in mehreren Umfragen und Studien festgestellt worden
+    ist, dass Freie Software in vielen großen und auch kleineren und
+    mittelständischen Unternehmen bereits punktuell eingesetzt wird, stellt sie
+    im Bereich der spezialisierten Branchensoftware bisher eher noch die
+    Ausnahme dar." [@enquete, S. 44]
