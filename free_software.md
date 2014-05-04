@@ -25,7 +25,7 @@ Software, deren Lizenz zumindestens die folgenden vier Freiheiten einräumt:
   - Die Freiheit, das Programm zu verändern und diese veränderte Version zu
     veröffentlichen. Die Offenlegung des Quellcodes ist dafür unabdingbar.
 
-    [@enquete]
+    [@enquete, S. 22]
 
 Es handelt sich bei den oben genannten Freiheiten explizit um Rechte und nicht
 um Pflichten.
@@ -131,7 +131,7 @@ Virale Lizenzen sind zum Beispiel:
     Eine von der Europäischen Kommission entwickelte Copyleft Lizenz für die
     Verwendung bei Eigenentwicklungen im Bereich der öffentlichen Verwaltung.
 
-    [@enquete]
+    [@enquete, S. 25-26]
 
 Beispiele für nicht-virale Lizenzen sind:
 
@@ -145,9 +145,117 @@ Beispiele für nicht-virale Lizenzen sind:
     Die Lizenz der freien BSD-Betriebssysteme, welche als Vorbild für viele
     andere Non-Copyleft-Lizenzen dient.
 
-    [@enquete]
+    [@enquete, S. 25-26]
 
 ## Vergleich zu proprietärer Software
+
+Im Folgenden folgt eine Zusammenfassung der Beurteilung der Vor- und Nachteile
+Freier Software im Vergleich zu proprietärer Software durch @enquete.
+
+### Vorteile
+
+  - **Anpassbarkeit**
+
+    Freie Software erlaubt es dem Benutzer die Software nach seinen eigenen
+    Wünschen anzupassen und zu verändern. Ebenso kann ein Nutzer ohne die
+    nötigen technischen Fähigkeiten auch externe Dienstleister beauftragen
+    die Software für ihn zu verändern.
+
+    Proprietäre Software bietet in der Regel nicht die Möglichkeit solche
+    Änderungen vorzunehmen.
+
+  - **Uneingeschränkte Verwendung und Weitergabe sowie Unabhängigkeit**
+
+    Freie Software sichert dem Benutzer das Recht auf freie Verwendung zu
+    beliebigem Zweck und ohne zeitliche Einschränkung.
+
+    Freie Software kann frei einschließlich durchgeführter Veränderungen an
+    andere Nutzer weitergegeben werden. Dadurch erlangt der Nutzer
+    Unabhängigkeit von dem Ursprünglichen Urheber der Software.
+    Wenn einem Nutzer oder Entwickler vom Urheber durchgeführte Änderungen nicht
+    gefallen kann die Software als sogenannte *Fork* weiterentwickelt werden.
+
+  - **Mehr Sicherheit und Qualität**
+
+    Die Möglichkeit den Quellcode einzusehen und zu analysieren führt dazu,
+    dass Sicherheitslücken frühzeitig erkannt und behoben werden können. An
+    dieser Stelle erwähnen @enquete, dass so Sicherheitslücken potentiell auch
+    schneller für kriminelle Zwecke ausgenutzt werden können.
+
+    Freie Software ist laut @enquete im Vergleich zu proprietärer Software von
+    gleicher oder höherwertiger Qualität.
+
+  - **Geringere Kosten**
+
+    Durch die Verwendung Freier Software können sowohl bei der Anschaffung als
+    auch bei der Entwicklung neuer Software auf Basis bestehender Freier
+    Softwaresysteme Kosten eingespart werden.
+
+  - **Förderung von Interoperabilität**
+
+    Die Verwendung von Offenen Standards in Freier Software förder die
+    Interoperabilität verschiedener Softwaresysteme.
+
+  - **Förderung des Wissenserwerbs**
+
+    Freie Software ermöglicht es dem Nutzer sich im Detail mit der
+    Funktionsweise der Software auseinanderzusetzen und Änderungen an ihrem
+    Quellcode vorzunehmen. Dadurch kann nützliches Wissen über die
+    Softwareentwicklung gewonnen werden.
+
+    [@enquete, S.26-27]
+
+### Nachteile
+
+  - **Eingeschränkte Haftung und Gewährleistung**
+
+    In Freien-Software-Lizenzen wird häufig ein Haftungsausschluss aufgeführt
+    der besagt, dass keinerlei Haftung für eventuelle Schäden besteht.
+
+  - **Höhere Anforderungen an Nutzer sowie mangelnde Akzeptanz von Nutzern**
+
+    Freie Software stellt oft höhere Ansprüche an die technischen Fähigkeiten
+    des Benutzers oder lässt beispielsweise bei der Gestaltung der
+    Benutzeroberfläche Wünsche offen.
+
+    Zudem trifft Freie Software wegen seiner geringen Verbreitung auf bestimmten
+    Gebieten der Anwendungssoftware häufig auf geringere Akteptanz bei
+    potentiellen Nutzern.
+
+  - **Mangelnde Verfügbarkeit von Software**
+
+    In bestimmten Bereichen gibt es keine Freie Software die den Anforderungen
+    beispielsweise professioneller Nutzer genügt.
+
+  - **Kostenintensive Zertifizierung**
+
+    Die Zertifizierung von spezieller Branchensoftware stellt eine hohe
+    finanzielle vor allem für ehrenamtliche Entwickler dar.
+
+  - **Interoperabilitätsprobleme mit proprietärer Software oder Hardware**
+
+    Freie Software kann häufig keine direkte Kompatibilität mit proprietären
+    Dateiformaten bieten.
+
+    Die Unterstützung von neuerer Hardware zum Beispiel durch Treiber erfolgt
+    bei Freier Software häufig später, da keine freien Treiber beziehungsweise
+    offene Spezifikationen vom Hersteller mitgeliefert werden.
+
+  - **Mangelnde Unterstützung auf dem Mobilsektor**
+
+    Im Bereich der Smartphones und Tablets gibt es eine noch geringere
+    Unterstützung für Freie Software. Proprietäre Betriebssysteme und App-Stores
+    verbieten sogar teilweise die Verwendung von Freier Software.
+
+  - **Ungeschützter Begriff**
+
+    Die Begriffe Freie Software oder Open Source stehen unter keinem
+    markenrechtlichen Schutz, weshalb es für den Benutzer möglicherweise
+    nicht ersichtlich sein kann ob es sich tatsächlich um Freie Software
+    handelt.
+
+    [@enquete, S.26-27]
+
 
 ## Geschäftsmodelle
 
