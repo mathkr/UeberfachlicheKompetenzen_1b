@@ -107,7 +107,7 @@ einteilen:
 Virale Lizenzen stellen sicher, dass Software die unter einer solchen Lizenz
 veröffentlicht wurde nicht in einem proprietären Softwareprodukt verwendet
 werden kann, ohne dieses auch unter einer Freien-Software-Lizenz zu
-veröffentlichen wenn es weitergegeben wird. So soll unter Anderem sichergestellt
+veröffentlichen wenn es weitergegeben wird. So soll unter anderem sichergestellt
 werden, dass alle späteren Nutzer von Veränderungen an Freier Software
 profitieren können. Virale Freie-Software-Lizenzen werden auch als *Copyleft*
 Lizenzen bezeichnet.
@@ -137,7 +137,7 @@ Beispiele für nicht-virale Lizenzen sind:
 
   - die **Apache License**.
 
-    Eine weit verbreitete Non-Copyleft-Lizenz die unter Anderem für den Apache
+    Eine weit verbreitete Non-Copyleft-Lizenz die unter anderem für den Apache
     Webserver verwendet wird.
 
   - Die **BSD-Lizenz**.
@@ -359,3 +359,98 @@ auf, darunter die folgenden:
     mittelständischen Unternehmen bereits punktuell eingesetzt wird, stellt sie
     im Bereich der spezialisierten Branchensoftware bisher eher noch die
     Ausnahme dar." [@enquete, S. 44]
+
+## Secure Boot und Offene Hardware
+
+Secure Boot stellt ein Verfahren dar, bei dem während des Bootvorganges eines
+Computers, das heißt vom Starten der Hardware bis zum Laden des eigentlichen
+Betriebssytemkernes nur Programmcode ausgeführt werden kann, dessen
+kryptographischer Schlüssel im System zuvor spezifiziert wurde. Dies soll zu
+einem höheren Grad an Sicherheit führen, da man so sicherstellen kann, dass auch
+vor dem Start des Betriebssystemes nur die vom Benutzer vorgesehene Software und
+kein Schadcode ausgeführt wird.
+
+Der eigentliche Zweck des Secure Boot Verfahrens tritt allerdings in der Praxis
+in den Hintergrund, da das Verfahren von Herstellern proprietärer Software, allen
+voran Microsoft dazu missbraucht wird das Installieren alternativer
+Betriebssyteme (z.B. GNU/Linux) auf Computer zu erschweren oder gar ganz zu
+verhindern. So ist es auf Computer mit x86-Architektur noch möglich Secure Boot
+zu umgehen, auf Geräten mit ARM-Prozessor (vor allem Tablets und Smartphones)
+allerdings nicht. Es stellt sich hier die Frage der Gerätehoheit, und ob der
+Kunde nach Kauf eines Computers auch das Recht hat frei über den solchen zu
+verfügen.
+
+Solche Fragen stellen sich auch im Zusammenhang mit dem Thema Offene Hardware.
+Offene Hardware lässt sich in begrifflich in zwei Kategorien einteilen.
+
+Da wäre zum einen **offen spezifizierte Hardware**. Offen spezifizierte
+Hardware ist Hardware, deren relevante Schnittstellen in ihrer Funktion offen
+und zugänglich spezifiziert sind. Dies ist notwendig um beispielsweise freie
+Treiber für ein bestimmtes Hardwaresystem schreiben zu können. Die Alternative
+dazu stellt einen gewaltigen sogenannten *Reverse-Engineering*-Aufwand dar.
+
+Zum anderen gibt es **freie Hardware**, welche unter ähnlichen Prinzipien
+fungiert wie freie Software. Die Hardware ist hier nicht nur in ihrer
+Spezifikation offen sondern in ihrem gesamten Design. Das führt dazu, dass die
+Hardware potentiell von jedem Nutzer hergestellt und verändert werden
+kann. Veränderungen am Design dürfen auch hier, analog zu Freier Software,
+weitergegeben werden.
+
+Hardware spielt im Zusammenhang mit Freier Software vor allem im Bereich der
+Systemsoftware eine große Rolle, da durch proprietäre oder schlecht
+dokumentierte Hardware häufig eine mangelhafte oder späte Unterstützung durch
+Freie Software resultiert.
+
+# Bewertung
+
+## Freie Software
+
+Es folgt an dieser Stelle eine kurze Bewertung der Betrachtung Freier Software
+durch @enquete.
+
+Zunächst einige Kritikpunkte:
+
+  - **Mangelnde Abgrenzung zwischen systematischen und strukturellen
+    Problemen.**
+
+    @enquete lassen bei der Unterscheidung zwischen systematischen Problemen
+    Freier Software und strukturellen Problemen bei der Nutzung und Verbreitung
+    Freier Software in unserem aktuellen Umfeld sehr viele Fragen offen.
+
+    Mit systematischen Problemen sind an dieser Stelle all die Probleme gemeint,
+    deren Ursprung auf tatsächliche Charakteristiken Freier Software
+    zurückzuführen ist. Als strukturelle Probleme lassen sich Probleme
+    bezeichnen deren Ursprung nicht etwa in der Nutzung einer
+    Freien-Software-Lizenz liegt, sondern vielmehr in der aktuellen
+    Software-Infrastruktur oder den gesellschaftlichen Rahmenbedingungen
+    innerhalb derer sich Software bewegt.
+
+    Beispielsweise führen @enquete auf Seite 28 unter "Schwächen Freier
+    Software" unter anderem "Interoperabilitätsprobleme mit Software/Hardware"
+    oder auch "Mangelnde Benutzerakzeptanz" aufgeführt. Mögen solche Probleme
+    bei der Bewertung und Betrachtung der aktuellen Situation auch von großem
+    Interesse sein, so sind sie doch keine inherenten Probleme Freier Software
+    sondern strukturelle Probleme der Umgebung in der sich Software in unserer
+    Gesellschaft bewegt.
+
+    Eine klare Abgrenzung hätte hier für deutlich mehr Klarheit gesorgt.
+
+  - **Unvollständige Betrachtung**
+
+    @enquete haben sich bei ihrer Betrachtung hauptsächlich auf pragmatische
+    und technische Aspekte Freier Software konzentriert und sind nicht oder nur
+    knapp auf politische und ideologische Aspekte auf Basis derer Freie Software
+    entstanden ist eingegangen.
+
+    So wird überhaupt nicht auf potentielle Auswirkungen Freier Software und
+    ihrer Ideale auf das gesellschaftliche Miteinander und den Austausch und die
+    Weitergabe von Wissen eingegangen. Auch findet keine Betrachtung
+    proprietärer und Freier Software unter ethischen Gesichtspunkten statt.
+
+Zusammenfassend lässt sich jedoch sagen, dass @enquete eine gelungene, wenn auch
+unvollständige Betrachtung verschiedenster Teilaspekte Freier Software
+abgeliefert haben.
+
+Sehr schön wäre es gewesen eine kurze Aufbereitung für denjenigen Leser
+bereitzustellen, der nicht bereit ist sich durch den gesamten Bericht
+durchzuarbeiten um die relevanten Passagen herauszufiltern.
