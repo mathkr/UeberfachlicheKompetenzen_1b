@@ -256,8 +256,32 @@ Freier Software im Vergleich zu proprietärer Software durch @enquete.
 
     [@enquete, S.26-27]
 
-
 ## Geschäftsmodelle
+
+Die kommerzielle Verwendung Freier Software ermöglicht eine Reihe von
+Geschäftsmodellen. An dieser Stelle sollen einige von @enquete aufgeführte
+Beispiele zusammengefasst und erläutert werden.
+
+### Erstellung und/oder Weiterentwicklung von Freier Software
+
+Eine Möglichkeit mit Freier Software Geld zu verdienen ist es maßgeschneiderte
+Software für zumeist Geschäftskunden zu erstellen. Solche auf den Kunden
+abgestimmten Softwarelösungen können inklusive des Quellcodes als Freie Software
+an Nutzer übergeben werden, so dass auch später noch Änderungen an der Software
+vorgenommen werden können. Es kann hier sowohl eine komplette Neuentwicklung für
+einen Kunden stattfinden als auch eine Weiterentwicklung oder Anpassung auf
+Basis bestehender Freier Software.
+
+### Beratung, Supportleistungen und Schulung
+
+Die Umstellung von einem IT-System auf eine andere Software in einem
+großen Unternehmen ist mit einem großen technischen, personellen und
+organisatiorischen Aufwand verbunden. Softwaresysteme müssen gepflegt und
+aktuell gehalten werden und Nutzer müssen geschult werden. Hier bietet es sich
+an, auf dem Gebiet Freier Software Beratung, Support und Schulungen anzubieten.
+
+Weitere von @enquete angeführte Geschäftsmodelle sind der Vertrieb von Linux
+Distributionen sowie die Administration und das Hosting von IT-Infrastruktur.
 
 ## Anwendungsgebiete
 
