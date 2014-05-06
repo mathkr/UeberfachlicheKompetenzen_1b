@@ -1,6 +1,326 @@
-% Matthis Krause
-% Freie Software
+% **Zusammenfassung und Bewertung des Zwischenberichts der
+  Enquete-Kommission "Internet und digitale Gesellschaft" zum Thema
+  "Interoperabilität, Standards, Freie Software"**
+% Michael Bayer (30685)
+  Matthis Krause (30879)
 % 04.05.2014
+
+# Interoperabilität
+
+Es gibt verschiedene Definitionen von Interoperabilität, diese unterscheiden
+sich darin, ob sie sich auf die Beschreibung technischer Interoperabilität von
+Soft- oder Hardware beschränken oder die Interoperabilität von Prozessen
+beschreiben.
+
+Generell kann Interoperabilität so beschrieben werden das Soft- und
+Hardwarekomponenten, die die gleichen syntaktischen und semantischen
+Schnittstellen haben, zusammengeschaltet werden können, ohne dass Änderungen am
+System erforderlich sind. Hierbei ist von einem Grad an Interoperabilität
+zu reden: umso weniger Handlungsbedarf erforderlich ist um eine Kommunikation
+zwischen Systemen zu ermöglichen die nahtlos funktioniert, desto größer ist der
+Grad der Interoperabilität. Um eine solche Interoperabilität zu
+ermöglichen sind einige Voraussetzungen wie standardisierte physikalische
+Schnittstellen sowie offene Standards, Formate und Daten notwendig.
+
+## Kategorien der Interoperabilität {#kat-der-interop}
+
+Im Normalfall ist es möglich zwischen technischer, syntaktischer sowie
+semantischer  Interoperabilität zu unterscheiden. Es existieren allerdings auch
+erweiterte Definitionen wie die organisatorische, rechtliche und politische
+Interoperabilität sowie Hard- und Software-Interoperabilität oder
+nutzerorientierte Interoperabilität.
+
+Technische Interoperabilität beschreibt die Vernetzung von Elektronischen
+Systemen und schließt damit Themen wie Kommunikationsdienste. Middleware,
+Datenformate, Systemmanagement und IT-Sicherheit ein. Interoperabilität kann
+mittels Schnittstellen und benutzten Kommunikationsprotokollen sowie durch
+Konformitätstests ermöglicht werden. Bei technischer Interoperabilität ist es
+wichtig, dass die syntaktische Interoperabilität gewährleistet ist, denn nur so
+können weitere Formen der Interoperabilität wie die semantische ermöglicht
+werden.
+
+Semantische Interoperabilität ermöglicht den Datenaustausch zwischen
+verschiedenen Quellen und sorgt gleichzeitig dafür, dass kein Datenverlust bei
+einer Übergabe eintritt. Zudem sorgt sie dafür dass Daten normiert werden, damit
+diese für alle die gleiche Bedeutung haben.
+
+Organisatorische Interoperabilität bedeutet, dass Geschäftsprozesse zwischen
+beispielsweise Verwaltungen aufeinander abgestimmt werden um eGovernment
+Projekten eine verbesserte Erfolgschance zu ermöglichen.
+
+Rechtliche Interoperabilität soll gewährleisten, dass elektronische Daten und
+Dienste auch in verschiedenen kooperierenden Organisationen auf einer
+interoperablen rechtlichen Basis fungieren. Der Umsatz von
+Datenschutzrichtlinien stellt hier ein Beispiel dar.
+
+Politische Interoperabilität stellt sicher, dass eine effizientere
+Zusammenarbeit erreicht wird, indem die Akteure vereinbarte Visionen haben und
+die gleichen Ziele anstreben.
+
+Nutzerorientierte Interoperabilität ermöglicht es Nutzern die Interaktion und
+das Kommunikationsverhalten interoperabler Systeme zu verstehen.
+
+## Vorteile von Interoperabilität
+
+Technische Interoperabilität ermöglicht es verschiedene ITK Systemen, die zum
+Beispiel über andere Betriebssysteme verfügen, sich trotzdem miteinander zu
+integrieren und gemeinsam funktionieren zu können.
+
+Interoperabilität kann auch wirtschaftlich zur Steigerung der Kosteneffizienz
+eingesetzt werden, indem der Integrationsaufwand und die Entwicklungskosten
+neuer Systeme dadurch gesenkt werden, dass standardisierte Schnittstellen
+eingesetzt werden, die Interoperabilität aufweisen.
+
+Marktwirtschaftlich kann Interoperabilität Monopolbildungen dadurch verhindern,
+dass neue Produkte keine Hardware- und Unternehmensabhängigkeit beim Nutzer
+erzeugen. Somit werden Doppelentwicklungen verhindert, die keinen Nutzen für
+die Wirtschaft erbringen und gleichzeitig wird der Markt für neue Teilnehmer
+besser erreichbar. Da bei fehlender Interoperabilität der Wettbewerb
+eingeschränkt wird kann dies bei Monopolbildungen zu höheren Preisen führen.
+
+## Schwierigkeiten fehlender Interoperabilität
+
+Fehlende Interoperabilität bei technischen Systemen führt dazu, dass
+Komponenten, Systeme sowie Prozesse nicht kompatibel zu anderen sind. Dies hält
+eine Kombination der Systeme sowie deren Weiterentwicklung auf und resultiert
+darin, dass Unternehmen komplexe Gesamtsysteme anbieten. Ein gutes Beispiel
+hierzu sind Schreibtelefone für Gehörlose, die das normale Telefonnetz benutzen
+jedoch nur eine Kommunikation von einem solchen Gerät zu einem anderen
+erlauben.
+
+## Probleme bei der Umsetzung von Interoperabilität
+
+Verschiedene Probleme behindern die Umsetzung von interoperablen Standards:
+einerseits erschweren heterogene Architekturen und Datenverarbeitungen die
+Entwicklung interoperabler Software dadurch, dass es für ähnliche Anwendungen
+viele verschiedene Standards gibt, die als Lösung fungieren aber sich im
+Resultat, bis auf die Inkompatibilität nicht sonderlich unterscheiden.
+
+Dies stellt besonders dann ein Problem dar, wenn Unternehmen ihre
+Monopolstellungen ausnutzen, um weiterhin aus nicht-interoperablen Produkten
+Gewinn zu schöpfen und somit die Entwicklung anderer Projekte erschweren.
+
+Zudem ist es Problematisch neue Software beispielsweise auf einem Markt
+durchzusetzen, wenn die Nutzer bereits an ein bestehendes Produkt, welches
+keine Interoperabilität aufweist zu gewöhnen.
+
+## Vorgehensweise zur Schaffung von Interoperabilität
+
+Interoperabilität kann durch die Standardisierung erreicht werden, dies ist
+durch Organisationen wie der Internet Engineering Task Force (IETF) oder
+Institute of Electrical and Electronics Engineers (IEEE) möglich, die die
+entsprechenden Entwicklungen koordinieren.
+
+Allerdings ist es auch möglich Interoperabilität durch Testverfahren bei der
+Entwicklung zu implementieren, dies kann in Interoperabilitätslaboren geschehen
+in den Produkte und Dienste getestet werden und in Kooperation mit Herstellern
+und Anwendern gegeben falls geändert werden. Zudem gibt es Testwerkzeuge wie
+die, die unter anderen vom Frauenhofer Focus entwickelt wurden und es
+Herstellern ermöglichen ihre eigenen Produkte selbst zu testen.
+
+## Maßnahmen der Europäischen Union zur Förderung von Interoperabilität
+
+Das Europäische Parlament und der Rat haben im Mai 2010 Maßnahmen ergriffen,
+die unter anderem zur Förderung von Interoperabilität beitragen, dieses
+Gesamtpaket an Zielsetzungen nennt sich *Digitale Agenda für Europa*. Ziel der
+Digitalen Agenda ist es, bis 2020 einen digitalen Binnenmarkt auf Basis eines
+schnellen Internets und interoperabler Anwendungen durch Regulierungen zu
+schaffen
+
+## Europäischer eGoverment-Aktionsplan 2011-2015
+
+Der eGoverment-Aktionsplan 2011-2015 baut auf die Ziele der Digitalen Agenda auf
+und soll Interoperabilität in Form von elektronischen Behördendiensten
+anbieten, die von den jeweiligen Mitgliedsstaaten umgesetzt werden Dazu gehört
+die Erstellung von auf die Bürger abgestimmten E-Government Dienste, besserer
+Zugang zu öffentlichen Informationen, erhöhte Transparenz und auch bessere
+Teilnahmemöglichkeiten an Politischen Entscheidungsfindungen. Um dies zu
+erreichen, sollen die öffentlichen Verwaltungen offene Spezifikation nutzen, um
+Dienste so kostengünstig wie möglich zu halten.
+
+## Interoperabilitätslösungen für europäische öffentliche Verwaltungen
+
+ISA ist Programm das vom Europäischen Parlament und dem Rat für den Zeitraum
+2010 bis 2015 beschlossen wurde. Ziel des Programms ist es Lösungen für
+Öffentliche Verwaltungen anzubieten, um Interoperabilität zu fördern. Ihre
+Aufgabe ist es Öffentliche Verwaltungen bei dem Umstieg auf Freie Software zu
+unterstützen, indem sie Interoperable Lösungen entwickeln und anbieten und
+somit elektronische Hindernisse beseitigen. Das Programm gliedert sich in drei
+Bereiche die aus Vertrauenswürdiger Informationsaustausch,
+Interoperabilitätsarchitektur, Beurteilung der Informations und
+Telekomunikationstechnik in neue EU-Vorschriften
+
+Hierbei ist die Online Plattform Joinup[^joinup] zu erwähnen, auf der
+Interessierte ihre Erfahrungen teilen können und sich gegenseitig helfen neue
+Lösungen für Freie Software zu entwickeln.
+
+[^joinup]: [`https://joinup.ec.europa.eu/`](https://joinup.ec.europa.eu/)
+
+## Die Europäische Interoperabilitätsstrategie und Europäische
+## Interoperabilitätsrahmen
+
+Ein weiterer Bestandteil der Interoperabilisierung der öffentlichen Dienste ist
+die Europäische Interoperabilitätsstrategie  (EIS) und soll öffentlichen
+Diensten bei der Umstellung auf Interoperabilität helfen indem sie, Maßnahmen
+priorisieren, die notwendig sind, um den Datenaustausch und die Zusammenarbeit
+zwischen öffentlichen  Verwaltungen in Europa zu verbessern und Probleme zu
+beseitigen.
+
+Der Europäische Interoperabilitätsrahmen dient zur Unterstützung der
+öffentlichen Verwaltungen indem Orientierungshilfen angeboten werden die sich
+aus Konzepten, Richtlinien, Strategien, Empfehlungen und Methoden
+zusammensetzen. Der EIF richtet dazu 25 Empfehlungen an die Mitgliedsstaaten,
+welche sich in die nachfolgenden Bereiche unterteilen lassen:
+
+  - Grundprinzipien für europäische öffentliche Dienste: Zu den Grundprinzipien
+    des EIF gehören unter anderem Nutzerorientierung, die Barrierefreiheit, die
+    IT-Sicherheit und die Mehrsprachigkeit.
+
+  - Konzeptmodell für öffentliche Dienste: Das Konzeptmodell europäisch
+    öffentlicher Dienste sieht im Kern vor, dass komplexe Dienste aus
+    feingranularen Diensten zusammengesetzt werden. Die feingranularen Dienste
+    beziehen ihre Daten beispielsweise aus.
+
+  - Interoperabilitätsebenen: Das EIF unterscheidet hierbei zwischen den vier
+    Ebenen der Interoperabilität die aus der rechtlichen, der organisatorischen,
+    die inhaltliche und der technische Interoperabilität. Die inhaltliche
+    Interoperabilität beschreibt die Bedeutung der ausgetauschten Daten. (Siehe
+    [Kategorien der Interoperabilität](#kat-der-interop))
+
+  - Interoperabilitätsvereinbarungen: Bei diesem Thema geht es um die Auswahl
+    existierender Standards um die Interoperabilität zu gewährleisten in den
+    oben genannten vier Ebenen.
+
+  - Interoperabilitäts-Governance: Bei diesem Thema wird die Steuerung der
+    Interoperabilitätsziele für den jeweiligen Mitgliedsstaat beschrieben.
+
+    [@enquete]
+
+# Standards und Normen
+
+Normen spiegeln den Stand der Technik wider. Der Einsatz von Normen ist
+grundsätzlich freiwillig. Sie stellen quasi eine Art Empfehlung. Normen werden
+in Normungsorganisationen wie der ETSI (European Telecommunications Standards
+Institute) entwickelt, diese Normungsorganisationen setzen sich aus
+interessierten zusammen, um einen möglichst breiten Konsens zu finden. Dieses
+Verfahren entlastet den Gesetzgeber allerdings birgt es eine hohe Verantwortung
+für die Normungsorganisation. Die Gelder der Normungsorganisation werden
+entweder aus Mitgliedsbeiträgen oder aus den Erlösen der Normen bezogen.
+Wichtig ist es hierbei zwischen Normen und Standards zu unterscheiden, da im
+Englischen der Begriff Standard für Normen und Standards verwendet wird.
+
+## Unterschiede zwischen Standards und Normen
+
+Eine Norm ist ein Dokument, das durch eine breite Beteiligung von
+Interessierten entstanden ist. Normalerweise bezieht sich dies auf ein Produkt,
+das bereits eine bestimmte Marktreife erreicht hat. Eine Normierung hat das
+Ziel einen Austausch von Waren oder Dienstleistungen zu fördern und technische
+Handelsprobleme national und international zu beseitigen.
+
+Hingegen zu den Normierungsorganisationen gibt es auch
+Standardisierungsorganisationen die besonders in der IT-Welt einen großen
+Einfluss haben. Viele Kommunikationsprotokolle auf denen das Internet basiert,
+sind von solchen Standardisierungsorganisationen wie der IETF die das TCP/IP
+Kommunikationsprotokoll entwickelte oder der IEEE (Institute of Electrical and
+Electronics Engineers)   die für die Protokollfamilie IEEE 802.11
+verantwortlich ist. Hierbei ist zu beachten das diese Standards grundsätzlich
+kostenfrei erhältlich sind.
+
+Eine weitere Form der Standards sind De-facto-Standards. Dies sind technische
+Standards, die nicht durch ein Normengremium oder einer
+Standardisierungsorganisationen verabschiedet, sondern können infolge eines
+überragenden Markterfolges de facto existieren. Sie werden in der Regel von
+Unternehmen definiert und manifestieren sich auf dem Markt, indem andere
+Anbieter versuchen diesen Standard in ein eigenes Produkt einzugliedern, um
+einen wirtschaftlichen Erfolg zu erzielen. Dies ist von dem Unternehmen das den
+Standard anbietet durchaus erwünscht, da mit der Zahl der Interessenten ab
+einem bestimmten Punkt eine kritische Masse erreicht wird,  die den
+Bekanntheitsgrad massiv steigert und einen Markterfolg zur Konsequenz hat.
+
+Im Falle eines Betriebssystems kann allerdings der Markt behindert werden, wenn
+der Hersteller auf den De-facto Standard setzt und an den entscheidenden
+Stellen nicht offen gestaltet. Nur wenn offene Schnittstellen existieren, ist
+es Programmierern möglich eigene Programme auf dem Betriebssystem zu
+entwickeln. Hierbei ist besonders interessant wie sich das offene mobile
+Betriebssystem Android auf dem Markt gegenüber anderen durchsetzen konnte.
+
+## Offene Standards
+
+Neben den Normalen Standards gibt es auch die Offenen Standards, diese sind
+wichtig um Interoperabilität zu erreichen.
+
+Die im Moment ausgereifteste Definition für einen Offenen Standard ist die der
+Free Software Foundation Europe e.V.[^fsfe]
+
+[^fsfe]: [`http://fsfe.org/activities/os/def.de.html`](http://fsfe.org/activities/os/def.de.html)
+
+1. von der Öffentlichkeit vollinhaltlich geprüft und verwendet werden kann;
+
+2. ohne jegliche Komponenten oder Erweiterungen ist, die von Formaten oder
+   Protokollen abhängen, die selbst nicht der Definition eines Offenen Standards
+   entsprechen;
+
+3. frei von rechtlichen Klauseln oder technischen Einschränkungen ist, die
+   seine Verwendung von jeglicher Seite oder mit jeglichem Geschäftsmodell
+   behindern;
+
+4. unabhängig von einem einzelnen Anbieter koordiniert und weiterentwickelt
+   wird, in einem Prozess, der einer gleichberechtigten Teilnahme von
+   Wettbewerbern und Dritten offen steht;
+
+5. in verschiedenen vollständigen Implementierungen von verschiedenen Anbietern
+   oder als vollständige Implementierung gleichermaßen für alle Beteiligten
+   verfügbar ist.
+
+Diese Definition entstand aus der ersten Version des Europäischen
+Interoperabilitätsrahmens, es existiert eine aktuellere Version, allerdings
+werden in dieser FRAND-Lizenzierungen für Offene Standards gefordert,
+allerdings ist dies ein Widerspruch, da die FRAND-Lizenzierungsmethode Gebühren
+impliziert, die der Patentinhaber von Nutzern eines Standards erheben kann.
+
+## Standards verschaffen Interoperabilität
+
+Standards ermöglichen das Zusammenwirken von Systemen die von verschiedenen
+Herstellern stammen. Eine Weitergabe von Kompatiblitätsinformationen eines
+Herstellers an einen anderen ist eine Voraussetzung für die Interoperabilität.
+Auf diesem Wege wird dem Vertragspartner erlaubt, die lizensierten
+Schnittstellen zu nutzen. Die Problematik hierbei ist, dass nur den Unternehmen
+Zugriff auf die Informationen erlaubt wird und dieses System somit geschlossen
+ist. Das bedeutet dass, es nicht die gemeinsame Innovationsleistung von
+unabhängigen Entwicklern erhalten kann.
+
+# Praktische Anwendungen in Bezug auf Interoperabilität und Standards
+
+## Cyber-Physical Systems
+
+Cyber-Physical Systems werden definiert als „Systeme mit eingebetteter Software
+(als Teil von Geräten, Gebäuden, Verkehrsmitteln, Verkehrswegen,
+Produktionsanlagen, medizinischen Prozessen, Logistik-, Koordinations- und
+Managementprozessen), die über Sensoren und Antriebselemente verfügen und denen
+es möglich ist Daten aus der physikalischen sowie digitalen Welt zu
+interagieren. Zudem mit Zugriff auf Schnittstellen ausgestattet um mit dem
+globalen Netzverbunden zu sein und Dienste sowie Daten zu nutzen. [@bitembedded]
+
+Besonders im Bereich der Energieversorgung werden Cyber-Physical Systems eine
+große Rolle spielen. Der Umstieg auf Erneuerbare Energien erfordert ein
+dezentrales Stromnetz dem es möglich ist auf Speicher und Stromerzeuger
+zuzugreifen und bei Strombedarf bzw. Stromüberfluss das Netz zu regulieren,
+damit Spannungsschwankungen Geräte die sich im Netz befinden, nicht beschädigt
+werden. Solche Intelligenten Stromnetze nennen sich Smart Grids.
+
+## Notwendigkeit von Interoperabilität und Standards
+
+Interoperabilität ist ein wichtiger Bestandteil von Cyber-Physical Systems da
+offene Standards und standardisierte Schnittstellen verschiedener Hersteller,
+Embedded Systems benutzen und es ineffizient ist für jede Änderung an der
+Hardware die Software zu ändern.
+
+> „Interoperabilitätsstandards müssen erarbeitet und gesetzt werden, welche die
+> kritischen Sicherheitsaspekte der Technologie beachten, zukunftsfähig sind
+> und außerdem Export- und Absatzchancen fördern. Standardisierungsaktivitäten
+> in internationalen Gremien sind zu unterstützen.“
+>
+> [@acatech]
 
 # Freie Software
 
@@ -14,7 +334,7 @@ bewertet.
 Unter dem Begriff der Freien Software versteht man wie von @enquete beschrieben,
 Software, deren Lizenz zumindestens die folgenden vier Freiheiten einräumt:
 
-  - Die Freiheit, das Programm für jeden Zweck zu verwenden.
+  - "Die Freiheit, das Programm für jeden Zweck zu verwenden.
 
   - Die Freiheit, das Programm zu untersuchen und an die individuellen
     Bedürfnisse anzupassen. Die Offenlegung des Quellcodes ist dafür
@@ -23,7 +343,7 @@ Software, deren Lizenz zumindestens die folgenden vier Freiheiten einräumt:
   - Die Freiheit, Kopien des Programmes weiterzugeben.
 
   - Die Freiheit, das Programm zu verändern und diese veränderte Version zu
-    veröffentlichen. Die Offenlegung des Quellcodes ist dafür unabdingbar.
+    veröffentlichen. Die Offenlegung des Quellcodes ist dafür unabdingbar."
 
     [@enquete, S. 22]
 
@@ -371,8 +691,8 @@ vor dem Start des Betriebssystemes nur die vom Benutzer vorgesehene Software und
 kein Schadcode ausgeführt wird.
 
 Der eigentliche Zweck des Secure Boot Verfahrens tritt allerdings in der Praxis
-in den Hintergrund, da das Verfahren von Herstellern proprietärer Software, allen
-voran Microsoft dazu missbraucht wird das Installieren alternativer
+in den Hintergrund, da das Verfahren von Herstellern proprietärer Software,
+allen voran Microsoft dazu missbraucht wird das Installieren alternativer
 Betriebssyteme (z.B. GNU/Linux) auf Computer zu erschweren oder gar ganz zu
 verhindern. So ist es auf Computer mit x86-Architektur noch möglich Secure Boot
 zu umgehen, auf Geräten mit ARM-Prozessor (vor allem Tablets und Smartphones)
@@ -402,6 +722,31 @@ dokumentierte Hardware häufig eine mangelhafte oder späte Unterstützung durch
 Freie Software resultiert.
 
 # Bewertung
+
+## Interoperabilität und Standards
+
+Der Sinn der Enquete-Kommission Internet und Digitale Gesellschaft ist es die
+Auswirkungen des Internets auf Politik und Gesellschaft zu erörtern und einen
+Konsens zu finden. Es folgt eine Kritik zu den Themen Interoperabilität und
+Standards.
+
+Der Bericht richtet sich danach Empfehlungen an die Politik zu vermitteln.
+Dieses Ziel hat der Bericht erreicht, er kann als eine Art Leitfaden zu den
+Themen genutzt werden.
+
+Positiv ist zu bemerken, dass in den Themen Interoperabilität und Standards die
+Sachverhalte der einzelnen Themen und Auswirkungen sowie die Notwendigkeit von
+Interoperabilität und Standards in der heutigen Gesellschaft und für die
+Zukunft dargestellt wurden.
+
+Ein weiterer positiver Punkt ist die Darstellung der euphemistischen
+Problematik mit FRAND-Lizenzen, die als fair und diskriminierungsfrei gelten,
+es aber nicht sind.
+
+Als Negativ Punkt könnte die Unvollständigkeit des Berichtes gelten, das bei
+den Themen Interoperabilität und Standards keine ideologischen Aspekte
+aufgezeigt wurden, sondern nur Wirtschaftlich/Politische, allerdings sind diese
+für den Bericht nicht notwendig.
 
 ## Freie Software
 
@@ -454,3 +799,28 @@ abgeliefert haben.
 Sehr schön wäre es gewesen eine kurze Aufbereitung für denjenigen Leser
 bereitzustellen, der nicht bereit ist sich durch den gesamten Bericht
 durchzuarbeiten um die relevanten Passagen herauszufiltern.
+
+# Glossar {.unnumbered}
+
+ITK
+:   Informations- und Telekommunikationstechnologie
+
+IETF
+:   Internet Engineering Task Force
+
+IEEE
+:   Institute of Electrical and Electronics Engineers
+
+EIF
+:   Europäischer Interoperabilitätsrahmen
+
+EIS
+:   Europäische Interoperabilitätsstrategie
+
+FRAND
+:   Fair, Reasonable and Non-Discriminatory
+
+TCP/IP
+:   Transmission Control Protocol / Internet Protocol
+
+# Literatur
